@@ -18,19 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/mi-ruta', function ()
-{
-  return 'Soy un ruta';
-});
-
-
-Route::get('/usuario/{id}', function ($id)
-{
-  return 'usuario: '. $id;
-})->where('id', '[0-9]+');
-
-Route::get('/usuario/{name}', function ($name)
-{
-  return 'mi nombre es: '. $name;
-});
+Route::get('/usuarios', 'UserController@index');
+Route::get('/usuarios/{id}','UserController@show')->where('id', '[0-9]');
+Route::get('/usuarios/crear', 'UserController@create');
