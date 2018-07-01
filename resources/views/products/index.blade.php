@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Lista de products
-  </body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+  <div class="container">
+    <ul>
+      @foreach ($products as $product)
+        <li>{{ $product->title }}</li>
+      @endforeach
+    </ul>
+  </div>
+@endsection

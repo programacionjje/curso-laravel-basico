@@ -3,7 +3,8 @@
 
 @section('content')
   <div class="container">
-    <form>
+    <form action="{{ route('products') }}" method="post">
+      @csrf
       <div class="form-group">
         <label for="title">Titulo</label>
         <input type="text" class="form-control" id="title" name="title">
