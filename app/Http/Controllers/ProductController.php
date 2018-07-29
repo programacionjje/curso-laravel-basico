@@ -33,4 +33,20 @@ class ProductController extends Controller
       return redirect()->home();
 
     }
+
+    public function edit(Product $product)
+    {
+        return view('products.edit', compact('product'));
+    }
+
+    public function update(Request $request, Product $product)
+    {
+        $product->title = $request->title;
+        $product->description = $request->description;
+        $product->price = $request->price;
+
+        $product->update();
+
+        return redirect()->home()->with('success', 'Se ha actualizado el producto');
+    }
 }
