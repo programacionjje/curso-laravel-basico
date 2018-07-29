@@ -21,8 +21,14 @@
                       <p class="card-text">
                           <small class="text-muted">{{ $product->price }}</small>
                       </p>
-                      <a href="#" class="btn btn-primary">Editar</a>
-                      <a href="#" class="btn btn-danger">Eliminar</a>
+                      <div style="display: inline-flex">
+                          <a href="{{ route('products.edit', $product->id)}}" class="btn btn-primary">Editar</a>
+                          <form class="ml-2" action="{{ route('products.delete', $product->id )}}" method="post">
+                              @csrf
+                              <button type="submit" class="btn btn-danger">Eliminar</button>
+                          </form>
+                      </div>
+
                     </div>
                 </div>
             </div>

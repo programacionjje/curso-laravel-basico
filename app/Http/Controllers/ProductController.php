@@ -54,4 +54,11 @@ class ProductController extends Controller
 
         return redirect()->home()->with('success', 'Se ha actualizado el producto');
     }
+
+    public function delete(Product $product)
+    {
+        $product->delete();
+
+        return redirect()->home()->with('success', 'Se ha eliminado el producto');
+    }
 }
