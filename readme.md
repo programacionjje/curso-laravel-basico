@@ -7,6 +7,8 @@ Programación JJE es un canal de YouTube, creado con la finalidad de compartir c
 Bienvenido al Curso Laravel Básico, en este curso aprenderás sobre los conceptos fundamentales del framework Laravel, tales como: instalación, estructura del proyecto,
 rutas, vistas y construcción de un CRUD de productos.
 
+* [Link al curso](https://www.youtube.com/watch?v=_iBuUVp6FgY&list=PLxC4KHHVzT5agdPTnGnvETMTjN9EAT3Go)
+
 ## Videos
 
 1. [Curso Laravel Básico - Introducción al curso](https://www.youtube.com/watch?v=_iBuUVp6FgY&index=1&list=PLxC4KHHVzT5agdPTnGnvETMTjN9EAT3Go) - 2:58
@@ -22,3 +24,8 @@ rutas, vistas y construcción de un CRUD de productos.
 11. [Curso Laravel Básico - CRUD Productos / Parte dos](https://www.youtube.com/watch?v=0RIF6pYZrT8&index=11&list=PLxC4KHHVzT5agdPTnGnvETMTjN9EAT3Go) - 8:14
 12. [Curso Laravel Básico - CRUD Productos / Parte tres](https://www.youtube.com/watch?v=-iK0toL-bYo&list=PLxC4KHHVzT5agdPTnGnvETMTjN9EAT3Go&index=12) - 7:51
 13. [Curso Laravel Básico - CRUD Productos / Parte cuatro](https://www.youtube.com/watch?v=9Zurkqu0DJw&index=13&list=PLxC4KHHVzT5agdPTnGnvETMTjN9EAT3Go) - 4:39
+
+### Contacto
+
+Jonathan Zarate
+zaratedev@gmail.com
